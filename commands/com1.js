@@ -102,20 +102,20 @@ COMMANDS.ls = function(argv, cb) {
    cb();
 }
 
-COMMANDS.gimp = function(argv, cb) {
+COMMANDS.show = function(argv, cb) {
    var filename = this._terminal.parseArgs(argv).filenames[0],
        entry,
        imgs;
 
    if (!filename) {
-      this._terminal.write('gimp: please specify an image file.');
+      this._terminal.write('show: please specify an image file.');
       cb();
       return;
    }
 
    entry = this._terminal.getEntry(filename);
    if (!entry || entry.type !== 'img') {
-      this._terminal.write('gimp: file ' + filename + ' is not an image file.');
+      this._terminal.write('show: file ' + filename + ' is not an image file.');
    } else {
       this._terminal.write('<img src="' + entry.contents + '"/>');
       imgs = this._terminal.div.getElementsByTagName('img');
@@ -201,7 +201,7 @@ COMMANDS.help = function(argv, cb) {
        '<span class="dir">directory</span>, or use "ls" to list the contents ' +
        'of that directory. The contents of a <span class="text">file</span> ' +
        'can be viewed using "cat". <span class="img">Images</span> are ' +
-       'displayed using "gimp".<br><br>If there is a command you want to get ' +
+       'displayed using "show".<br><br>If there is a command you want to get ' +
        'out of, press Ctrl+C or Ctrl+D.<br><br>');
    this._terminal.write('Commands are:<br>');
    for (var c in this._terminal.commands) {

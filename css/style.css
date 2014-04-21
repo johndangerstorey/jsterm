@@ -17,6 +17,7 @@ html {
 
 body {
    background: black;
+   font-weight: 100;
 }
 
 .jsterm a {
@@ -66,7 +67,7 @@ div.jsterm .link, div.jsterm .link a {
 
 div.jsterm .exec, div.jsterm .exec a {
    color: #55ff55;
-   font-weight: bold;
+   font-weight: 100;
 }
 
 div.jsterm .img, div.jsterm .img a {
@@ -77,3 +78,17 @@ div.jsterm .img, div.jsterm .img a {
 #blinker {
     line-height: .9em;
 }
+.attr{
+   color: white;
+   position: fixed;
+   top: 5px;
+   right: 5px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12px;
+   font-weight: 100;
+   cursor: pointer;
+}
+
+.attr a {
+   text-decoration: none;
+   color: grey;

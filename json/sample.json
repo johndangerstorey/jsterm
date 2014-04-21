@@ -2,47 +2,45 @@
    "name": "~",
    "type": "dir",
    "contents": [
+
       {
-         "name": "info",
-         "type": "dir",
-         "contents": [
-            
-            {
-               "name": "intro",
-               "type": "text",
-               "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. He also likes to talk in 3rd Person. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
-               "description": "a brief introduction"
-            },
-            {
-               "name": "pic.png",
-               "type": "img",
-               "contents": "/images/fullPicture.png",
-               "caption": ""
-            },
-            {
-               "name": "gitHub",
-               "type": "exec",
-               "contents": "https://github.com/johndangerstorey",
-               "description": "My GitHub Account"
-            },
-            {
-               "name": "email",
-               "type": "exec",
-               "contents": "mailto:johndangerstorey@gmail.com"
-            },
-            {
-               "name": "twitter",
-               "type": "exec",
-               "contents": "https://twitter.com/johnDANGRstorey"
-            },
-            {
-               "name": "blog",
-               "type": "exec",
-               "contents": "johndangerstorey.svbtle.com"
-            }
-         ]
+         "name": "intro",
+         "type": "text",
+         "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
+         "description": "a brief introduction"
       },
-        
+      {
+         "name": "pic.png",
+         "type": "img",
+         "contents": "/images/fullPicture.png",
+         "caption": ""
+      },
+      {
+         "name": "gitHub",
+         "type": "exec",
+         "contents": "https://github.com/johndangerstorey",
+         "description": "My GitHub Account"
+      },
+      {
+         "name": "email",
+         "type": "exec",
+         "contents": "mailto:johndangerstorey@gmail.com"
+      },
+      {
+         "name": "twitter",
+         "type": "exec",
+         "contents": "https://twitter.com/johnDANGRstorey"
+      },
+      {
+         "name": "blog",
+         "type": "exec",
+         "contents": "johndangerstorey.svbtle.com"
+      },
+      {
+         "name": "resume",
+         "type": "exec",
+         "contents": "/images/John_Design&Dev.pdf"
+      },
       {
          "name": "projects",
          "type": "dir",

@@ -489,7 +489,7 @@
       term.enqueue('login')
           .enqueue('visitor')
           .enqueue('******')
-          .enqueue('gimp ~/info/pic.png')
+          .enqueue('show ~/info/pic.png')
           .enqueue('cat /info/intro')
           // .enqueue('help')
           // .enqueue('ls -l')
