@@ -498,7 +498,6 @@
           // .enqueue('cd ../..')
           // .enqueue('ls dir1/foo')
           .enqueue('tree')
-          .enqueue('help')
           .begin();
    });
 

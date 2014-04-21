@@ -10,7 +10,7 @@
             {
                "name": "intro",
                "type": "text",
-               "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
+               "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. He also likes to talk in 3rd Person. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
                "description": "a brief introduction"
             },
             {
@@ -34,6 +34,11 @@
                "name": "twitter",
                "type": "exec",
                "contents": "https://twitter.com/johnDANGRstorey"
+            },
+            {
+               "name": "blog",
+               "type": "exec",
+               "contents": "johndangerstorey.svbtle.com"
             }
          ]
       },
@@ -47,9 +52,9 @@
                "type": "dir",
                "contents": [
                   {
-                     "name": "Top 100 // Angular & Firebase",
+                     "name": "Top 100 // Angular, Firebase & Real Users",
                      "type": "exec",
-                     "contents": "100.openapparatus.com"
+                     "contents": "http://100.openapparatus.com/"
                   },
                   {
                      "name": "XO Island // Bootstrap & jQuery",
@@ -64,10 +69,16 @@
                "type": "dir",
                "contents": [
                   {
-                     "name": "file3",
+                     "name": "Hobbit_Name_iPhone_App",
                      "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
+                     "contents": "https://itunes.apple.com/us/app/my-hobbit-name/id536456809?mt=8",
+                     "description": "I have some reservations about this App"
+                  },
+                  {
+                     "name": "Biz_Card_Game",
+                     "type": "img",
+                     "contents": "/images/backOfCard_darkGold.jpg",
+                     "description": "Card game I designed"
                   }
                ]
             },
@@ -77,9 +88,27 @@
                "type": "dir",
                "contents": [
                   {
-                     "name": "file3",
-                     "type": "exec",
-                     "contents": "http://google.com",
+                     "name": "Hobbits",
+                     "type": "text",
+                     "contents": "<iframe src='//player.vimeo.com/video/46626934' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+                     "description": "blahblah"
+                  },
+                  {
+                     "name": "Silly_String_Fight",
+                     "type": "text",
+                     "contents": "<iframe width='560' height='315' src='//www.youtube.com/embed/8HJqqdb4efk' frameborder='0' allowfullscreen></iframe>",
+                     "description": "blahblah"
+                  },
+                  {
+                     "name": "Paint_Fight",
+                     "type": "text",
+                     "contents": "<iframe width='560' height='315' src='//www.youtube.com/embed/_WUFWj8tqgU' frameborder='0' allowfullscreen></iframe>",
+                     "description": "blahblah"
+                  },
+                  {
+                     "name": "Football_Doc",
+                     "type": "text",
+                     "contents": "<iframe width='560' height='315' src='//www.youtube.com/embed/YDpZbo_KQOA' frameborder='0' allowfullscreen></iframe>",
                      "description": "blahblah"
                   }
                ]
