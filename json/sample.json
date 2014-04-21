@@ -3,28 +3,77 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
-         "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "name": "info",
+         "type": "dir",
+         "contents": [
+            
+            {
+               "name": "intro",
+               "type": "text",
+               "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
+               "description": "a brief introduction"
+            },
+            {
+               "name": "pic.png",
+               "type": "img",
+               "contents": "/images/fullPicture.png",
+               "caption": ""
+            },
+            {
+               "name": "gitHub",
+               "type": "exec",
+               "contents": "https://github.com/johndangerstorey",
+               "description": "My GitHub Account"
+            },
+            {
+               "name": "email",
+               "type": "exec",
+               "contents": "mailto:johndangerstorey@gmail.com"
+            },
+            {
+               "name": "twitter",
+               "type": "exec",
+               "contents": "https://twitter.com/johnDANGRstorey"
+            }
+         ]
       },
+        
       {
-         "name": "pic.jpg",
-         "type": "img",
-         "contents": "/images/penguin.png",
-         "caption": "What a beautiful penguin."
-      },
-      {
-         "name": "dir1",
+         "name": "projects",
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
+               "name": "development",
+               "type": "dir",
+               "contents": [
+                  {
+                     "name": "Top 100 // Angular & Firebase",
+                     "type": "exec",
+                     "contents": "100.openapparatus.com"
+                  },
+                  {
+                     "name": "XO Island // Bootstrap & jQuery",
+                     "type": "exec",
+                     "contents": "xoisland.com"
+                  }
+               ]
             },
+
             {
-               "name": "foo",
+               "name": "design",
+               "type": "dir",
+               "contents": [
+                  {
+                     "name": "file3",
+                     "type": "exec",
+                     "contents": "http://google.com",
+                     "description": "blahblah"
+                  }
+               ]
+            },
+
+            {
+               "name": "video",
                "type": "dir",
                "contents": [
                   {

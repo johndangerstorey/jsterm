@@ -33,7 +33,8 @@ div.jsterm {
    font-family: monospace;
    font-size: 16px;
    color: #E0E0E0;
-   width: 900px;
+   /* remove to make responsive
+   width: 900px; */
    margin-bottom: 20px;
    white-space: pre-wrap;
 }

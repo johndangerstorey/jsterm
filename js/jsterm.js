@@ -487,16 +487,18 @@
    var term = Object.create(Terminal);
    term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
+          .enqueue('visitor')
           .enqueue('******')
-          .enqueue('cat file1')
-          .enqueue('help')
-          .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
-          .enqueue('ls')
-          .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
+          .enqueue('gimp ~/info/pic.png')
+          .enqueue('cat /info/intro')
+          // .enqueue('help')
+          // .enqueue('ls -l')
+          // .enqueue('cd dir1/foo')
+          // .enqueue('ls')
+          // .enqueue('cd ../..')
+          // .enqueue('ls dir1/foo')
           .enqueue('tree')
+          .enqueue('help')
           .begin();
    });
 
