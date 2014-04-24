@@ -102,20 +102,20 @@ COMMANDS.ls = function(argv, cb) {
    cb();
 }
 
-COMMANDS.show = function(argv, cb) {
+COMMANDS.gimp = function(argv, cb) {
    var filename = this._terminal.parseArgs(argv).filenames[0],
        entry,
        imgs;
 
    if (!filename) {
-      this._terminal.write('show: please specify an image file.');
+      this._terminal.write('gimp: please specify an image file.');
       cb();
       return;
    }
 
    entry = this._terminal.getEntry(filename);
    if (!entry || entry.type !== 'img') {
-      this._terminal.write('show: file ' + filename + ' is not an image file.');
+      this._terminal.write('gimp: file ' + filename + ' is not an image file.');
    } else {
       this._terminal.write('<img src="' + entry.contents + '"/>');
       imgs = this._terminal.div.getElementsByTagName('img');

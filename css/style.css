@@ -19,6 +19,9 @@ body {
    background: black;
    font-weight: 100;
 }
+.link {
+   color: #55ff55;
+}
 
 .jsterm a {
    color: #E0E0E0;
@@ -61,8 +64,7 @@ div.jsterm .dir, div.jsterm .dir a {
 }
 
 div.jsterm .link, div.jsterm .link a {
-   color: #5555ff;
-   font-weight: bold;
+   color: #55ff55;
 }
 
 div.jsterm .exec, div.jsterm .exec a {

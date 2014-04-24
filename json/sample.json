@@ -6,7 +6,7 @@
       {
          "name": "intro",
          "type": "text",
-         "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. Click the links below to see my work, and contact me through email at johndangerstorey@gmail.com",
+         "contents": "John D. is an Art Director turned front-end developer that loves creating unique and exceptional user experiences with HTML, CSS, and Javascript libraries such as AngularJS and jQuery. Email me at <a class='link' href='mailto:johndangerstorey@gmail.com'>johndangerstorey@gmail.com</a> or click the links below to see my work.",
          "description": "a brief introduction"
       },
       {
@@ -55,9 +55,14 @@
                      "contents": "http://100.openapparatus.com/"
                   },
                   {
-                     "name": "XO Island // Bootstrap & jQuery",
+                     "name": "XO Island // Responsive Bootstrap & jQuery",
                      "type": "exec",
-                     "contents": "xoisland.com"
+                     "contents": "http://xoisland.com/"
+                  },
+                  {
+                     "name": "Right Intel // Wordpress Plugins & Responsive",
+                     "type": "exec",
+                     "contents": "http://rightintel.com/home/"
                   }
                ]
             },
@@ -112,6 +117,12 @@
                ]
             }
          ]
+      },
+      {
+         "name": "Powered by Clark DuVall's <a href='https://github.com/clarkduvall/jsterm'>GitHub project</a> &hearts;",
+         "type": "text",
+         "contents": "Much love and respect to Clark DuVall for his <a href='https://github.com/clarkduvall/jsterm'>GitHub project that is powering this site.</a>",
+         "description": "a brief introduction"
       }
    ]
 }
